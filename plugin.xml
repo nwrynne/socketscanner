@@ -56,8 +56,8 @@
         <header-file src="src/ios/ScanAPI/include/SktScanPropIds.h" />
         <header-file src="src/ios/ScanAPI/include/SktScanTypes.h" />
 
-        <source-file src="src/ios/ScanAPI/lib/libScanApi.a" />
-        <source-file src="src/ios/ScanAPI/lib/libScannerRegistrationLib.a" />
+        <framework src="src/ios/ScanAPI/lib/libScanApi.a" />
+        <framework src="src/ios/ScanAPI/lib/libScannerRegistrationLib.a" />
     </platform>
 
     <!-- android -->
