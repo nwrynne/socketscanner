@@ -30,7 +30,6 @@
         <header-file src="src/ios/ScanAPIHelper.h" />
         <header-file src="src/ios/ICallback.h" />
         <header-file src="src/ios/ScanAPI/DeviceInfo.h" />
-        <header-file src="src/ios/ScanAPI/ScanApiHelper.h" />
         <header-file src="src/ios/ScanAPI/ScanApiIncludes.h" />
 
         <source-file src="src/ios/RootScannerController.mm" />
