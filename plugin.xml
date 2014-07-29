@@ -35,7 +35,6 @@
         <source-file src="src/ios/RootScannerController.mm" />
         <source-file src="src/ios/ScanAPIHelper.m" />
         <source-file src="src/ios/ScanAPI/DeviceInfo.m" />
-        <source-file src="src/ios/ScanAPI/ScanApiHelper.mm" />
 
         <header-file src="src/ios/ScanAPI/include/ISktScanApi.h" />
         <header-file src="src/ios/ScanAPI/include/ISktScanDecodedData.h" />
