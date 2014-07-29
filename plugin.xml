@@ -30,14 +30,16 @@
         <header-file src="src/ios/ScanAPIHelper.h" />
         <header-file src="src/ios/ICallback.h" />
         <header-file src="src/ios/ScanAPI/DeviceInfo.h" />
+        <header-file src="src/ios/ScanAPI/ScanApiHelper.h" />
         <header-file src="src/ios/ScanAPI/ScanApiIncludes.h" />
 
         <source-file src="src/ios/RootScannerController.mm" />
         <source-file src="src/ios/ScanAPIHelper.m" />
         <source-file src="src/ios/ScanAPI/DeviceInfo.m" />
+        <source-file src="src/ios/ScanAPI/ScanApiHelper.mm" />
 
         <header-file src="src/ios/ScanAPI/include/ISktScanApi.h" />
-        <header-file src="src/ios/ScanAPI/include/ISktDecodedData.h" />
+        <header-file src="src/ios/ScanAPI/include/ISktScanDecodedData.h" />
         <header-file src="src/ios/ScanAPI/include/ISktScanDevice.h" />
         <header-file src="src/ios/ScanAPI/include/ISktScanEvent.h" />
         <header-file src="src/ios/ScanAPI/include/ISktScanMsg.h" />
@@ -54,6 +56,9 @@
         <header-file src="src/ios/ScanAPI/include/SktScanErrors.h" />
         <header-file src="src/ios/ScanAPI/include/SktScanPropIds.h" />
         <header-file src="src/ios/ScanAPI/include/SktScanTypes.h" />
+
+        <source-file src="src/ios/ScanAPI/lib/libScanApi.a" />
+        <source-file src="src/ios/ScanAPI/lib/libScannerRegistrationLib.a" />
     </platform>
 
     <!-- android -->
