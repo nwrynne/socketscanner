@@ -29,34 +29,36 @@
         <header-file src="src/ios/RootScannerController.h" />
         <header-file src="src/ios/ScanAPIHelper.h" />
         <header-file src="src/ios/ICallback.h" />
-        <header-file src="src/ios/ScanAPI/DeviceInfo.h" />
-        <header-file src="src/ios/ScanAPI/ScanApiIncludes.h" />
-
         <source-file src="src/ios/RootScannerController.mm" />
         <source-file src="src/ios/ScanAPIHelper.m" />
-        <source-file src="src/ios/ScanAPI/DeviceInfo.m" />
 
-        <header-file src="src/ios/ScanAPI/include/ISktScanApi.h" />
-        <header-file src="src/ios/ScanAPI/include/ISktScanDecodedData.h" />
-        <header-file src="src/ios/ScanAPI/include/ISktScanDevice.h" />
-        <header-file src="src/ios/ScanAPI/include/ISktScanEvent.h" />
-        <header-file src="src/ios/ScanAPI/include/ISktScanMsg.h" />
-        <header-file src="src/ios/ScanAPI/include/ISktScanObject.h" />
-        <header-file src="src/ios/ScanAPI/include/ISktScanProperty.h" />
-        <header-file src="src/ios/ScanAPI/include/ISktScanSymbology.h" />
-        <header-file src="src/ios/ScanAPI/include/ISktScanVersion.h" />
-        <header-file src="src/ios/ScanAPI/include/ScanAPI.h" />
-        <header-file src="src/ios/ScanAPI/include/ScannerRegistration.h" />
-        <header-file src="src/ios/ScanAPI/include/SktClassFactory.h" />
-        <header-file src="src/ios/ScanAPI/include/SktScanAPI.h" />
-        <header-file src="src/ios/ScanAPI/include/SktScanCore.h" />
-        <header-file src="src/ios/ScanAPI/include/SktScanDeviceType.h" />
-        <header-file src="src/ios/ScanAPI/include/SktScanErrors.h" />
-        <header-file src="src/ios/ScanAPI/include/SktScanPropIds.h" />
-        <header-file src="src/ios/ScanAPI/include/SktScanTypes.h" />
+        <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI" src="src/ios/ScanAPI/DeviceInfo.h" />
+        <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI" src="src/ios/ScanAPI/ScanApiIncludes.h" />
+        <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI" src="src/ios/ScanAPI/ScanAPIHelper.h" />
+        <source-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI" src="src/ios/ScanAPI/ScanAPIHelper.mm" />
+        <source-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI" src="src/ios/ScanAPI/DeviceInfo.m" />
 
-        <framework src="src/ios/ScanAPI/lib/libScanApi.a" />
-        <framework src="src/ios/ScanAPI/lib/libScannerRegistrationLib.a" />
+        <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/include" src="src/ios/ScanAPI/include/ISktScanDecodedData.h" />
+        <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/include" src="src/ios/ScanAPI/include/ISktScanDevice.h" />
+        <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/include" src="src/ios/ScanAPI/include/ISktScanEvent.h" />
+        <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/include" src="src/ios/ScanAPI/include/ISktScanMsg.h" />
+        <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/include" src="src/ios/ScanAPI/include/ISktScanObject.h" />
+        <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/include" src="src/ios/ScanAPI/include/ISktScanProperty.h" />
+        <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/include" src="src/ios/ScanAPI/include/ISktScanSymbology.h" />
+        <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/include" src="src/ios/ScanAPI/include/ISktScanVersion.h" />
+        <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/include" src="src/ios/ScanAPI/include/ScanAPI.h" />
+        <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/include" src="src/ios/ScanAPI/include/ScannerRegistration.h" />
+        <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/include" src="src/ios/ScanAPI/include/ISktScanApi.h" />
+        <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/include" src="src/ios/ScanAPI/include/SktClassFactory.h" />
+        <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/include" src="src/ios/ScanAPI/include/SktScanAPI.h" />
+        <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/include" src="src/ios/ScanAPI/include/SktScanCore.h" />
+        <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/include" src="src/ios/ScanAPI/include/SktScanDeviceType.h" />
+        <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/include" src="src/ios/ScanAPI/include/SktScanErrors.h" />
+        <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/include" src="src/ios/ScanAPI/include/SktScanPropIds.h" />
+        <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/include" src="src/ios/ScanAPI/include/SktScanTypes.h" />
+
+        <framework target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/lib" src="src/ios/ScanAPI/lib/libScanApi.a" />
+        <framework target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/lib" src="src/ios/ScanAPI/lib/libScannerRegistrationLib.a" />
     </platform>
 
     <!-- android -->
