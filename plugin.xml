@@ -34,8 +34,8 @@
 
         <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI" src="src/ios/ScanAPI/DeviceInfo.h" />
         <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI" src="src/ios/ScanAPI/ScanApiIncludes.h" />
-        <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI" src="src/ios/ScanAPI/ScanApiHelper.h" />
-        <source-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI" src="src/ios/ScanAPI/ScanApiHelper.mm" />
+        <!-- header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI" src="src/ios/ScanAPI/ScanApiHelper.h" / -->
+        <!-- source-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI" src="src/ios/ScanAPI/ScanApiHelper.mm" / -->
         <source-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI" src="src/ios/ScanAPI/DeviceInfo.m" />
 
         <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/include" src="src/ios/ScanAPI/include/ISktScanDecodedData.h" />
