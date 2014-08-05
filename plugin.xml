@@ -30,7 +30,7 @@
         <header-file src="src/ios/ScanApiHelper.h" />
         <header-file src="src/ios/ICallback.h" />
         <source-file src="src/ios/RootScannerController.mm" />
-        <source-file src="src/ios/ScanAPIHelper.m" />
+        <source-file src="src/ios/ScanApiHelper.m" />
 
         <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI" src="src/ios/ScanAPI/DeviceInfo.h" />
         <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI" src="src/ios/ScanAPI/ScanApiIncludes.h" />
