@@ -57,8 +57,8 @@
         <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/include" src="src/ios/ScanAPI/include/SktScanPropIds.h" />
         <header-file target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/include" src="src/ios/ScanAPI/include/SktScanTypes.h" />
 
-        <framework target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/lib" src="src/ios/ScanAPI/lib/libScanApi.a" />
-        <framework target-dir="src/com.phonegap.plugins.socketscan/ScanAPI/lib" src="src/ios/ScanAPI/lib/libScannerRegistrationLib.a" />
+        <framework src="src/ios/ScanAPI/lib/libScanApi.a" />
+        <framework src="src/ios/ScanAPI/lib/libScannerRegistrationLib.a" />
     </platform>
 
     <!-- android -->
